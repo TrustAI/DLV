@@ -1,5 +1,28 @@
 # DLV (Deep Learning Verification)
 
+__Xiaowei Huang, Marta Kwiatkowska, Sen Wang, Min Wu__
+
+The accompanying paper [Safety Verification of Deep Neural Networks](https://link.springer.com/chapter/10.1007/978-3-319-63387-9_1) is accepted by CAV 2017.
+
+
+##### Citation
+```
+@InProceedings{huang2017safety,
+    author      =   "Huang, Xiaowei
+                    and Kwiatkowska, Marta
+                    and Wang, Sen
+                    and Wu, Min",
+    editor      =   "Majumdar, Rupak and Kun{\v{c}}ak, Viktor",
+    title       =   "Safety Verification of Deep Neural Networks",
+    booktitle   =   "Computer Aided Verification",
+    year        =   "2017",
+    publisher   =   "Springer International Publishing",
+    address     =   "Cham",
+    pages       =   "3--29",
+    isbn        =   "978-3-319-63387-9"
+}
+```
+
 
 NB: the software is currently under active development. Please feel free to contact the developer by email: xiaowei.huang@cs.ox.ac.uk. 
 
@@ -37,7 +60,7 @@ The backend of Keras needs to be changed by editing the ~/.keras/keras.json file
     "backend": "theano",
     "image_dim_ordering": "th"
     
-### Download dataset and network paramters. 
+### Download dataset and network parameters. 
 
     If you want to train a network for GTSRB, Please download the dataset file X.h5 file from https://www.dropbox.com/s/2brjdjghhnmw6i7/X.h5?dl=0 to networks/ directory. For details on download networks and datasets for imageNet, please refer to the document. 
 
