@@ -1,11 +1,11 @@
-# DLV
+# DLV (Deep Learning Verification)
 
 
 NB: the software is currently under active development. Please feel free to contact the developer by email: xiaowei.huang@cs.ox.ac.uk. 
 
 Together with the software, there are two documents in Documents/ directory, one is the theory paper and the other is an user manual. The user manual will be updated from time to time. Please refer to the documents for more details about the software. 
 
-(1) Installation: 
+### Installation: 
 
 To run the program, one needs to install the following packages:
            
@@ -30,18 +30,18 @@ To run the program, one needs to install the following packages:
            make
            sudo make install
            
-(2) Check the backend of Keras: 
+### Check the backend of Keras: 
 
 The backend of Keras needs to be changed by editing the ~/.keras/keras.json file : 
 
     "backend": "theano",
     "image_dim_ordering": "th"
     
-(3) Download dataset and network paramters. 
+### Download dataset and network paramters. 
 
     If you want to train a network for GTSRB, Please download the dataset file X.h5 file from https://www.dropbox.com/s/2brjdjghhnmw6i7/X.h5?dl=0 to networks/ directory. For details on download networks and datasets for imageNet, please refer to the document. 
 
-(4) Usage: 
+### Usage: 
 
 Use the following command to call the program: 
 
